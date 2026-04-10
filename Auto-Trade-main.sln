@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auto-Trade-main", "Auto-Trade-main", "{175BBA48-2474-58D5-3EF3-F7A8C3EF3DA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{47F7CBD9-9FA2-E4B9-9E72-5E1E511D3947}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E7A8B34F-5AE9-19D9-0632-7D57C3A128C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTrade.Application", "Auto-Trade-main\backend\src\AutoTrade.Application\AutoTrade.Application.csproj", "{F54F960B-5161-2C3A-17B4-1FD65619B797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTrade.Domain", "Auto-Trade-main\backend\src\AutoTrade.Domain\AutoTrade.Domain.csproj", "{8FAC4BF5-CB19-4338-8F99-4EFA745CFDDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTrade.Infrastructure", "Auto-Trade-main\backend\src\AutoTrade.Infrastructure\AutoTrade.Infrastructure.csproj", "{B73B2BE8-C8A3-8ED1-31CF-6DE922C1941E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTrade.WebAPI", "Auto-Trade-main\backend\src\AutoTrade.WebAPI\AutoTrade.WebAPI.csproj", "{6D71EFB9-6013-5253-3B98-55209D68279E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F54F960B-5161-2C3A-17B4-1FD65619B797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54F960B-5161-2C3A-17B4-1FD65619B797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54F960B-5161-2C3A-17B4-1FD65619B797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54F960B-5161-2C3A-17B4-1FD65619B797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAC4BF5-CB19-4338-8F99-4EFA745CFDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAC4BF5-CB19-4338-8F99-4EFA745CFDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAC4BF5-CB19-4338-8F99-4EFA745CFDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAC4BF5-CB19-4338-8F99-4EFA745CFDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73B2BE8-C8A3-8ED1-31CF-6DE922C1941E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73B2BE8-C8A3-8ED1-31CF-6DE922C1941E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73B2BE8-C8A3-8ED1-31CF-6DE922C1941E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73B2BE8-C8A3-8ED1-31CF-6DE922C1941E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D71EFB9-6013-5253-3B98-55209D68279E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D71EFB9-6013-5253-3B98-55209D68279E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D71EFB9-6013-5253-3B98-55209D68279E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D71EFB9-6013-5253-3B98-55209D68279E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47F7CBD9-9FA2-E4B9-9E72-5E1E511D3947} = {175BBA48-2474-58D5-3EF3-F7A8C3EF3DA5}
+		{E7A8B34F-5AE9-19D9-0632-7D57C3A128C1} = {47F7CBD9-9FA2-E4B9-9E72-5E1E511D3947}
+		{F54F960B-5161-2C3A-17B4-1FD65619B797} = {E7A8B34F-5AE9-19D9-0632-7D57C3A128C1}
+		{8FAC4BF5-CB19-4338-8F99-4EFA745CFDDB} = {E7A8B34F-5AE9-19D9-0632-7D57C3A128C1}
+		{B73B2BE8-C8A3-8ED1-31CF-6DE922C1941E} = {E7A8B34F-5AE9-19D9-0632-7D57C3A128C1}
+		{6D71EFB9-6013-5253-3B98-55209D68279E} = {E7A8B34F-5AE9-19D9-0632-7D57C3A128C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C34EB91-0B70-47E5-B8C6-A079B4485C14}
+	EndGlobalSection
+EndGlobal
